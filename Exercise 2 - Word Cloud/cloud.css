@@ -1,4 +1,59 @@
-#myWordCloud {
-    color: red;
-    font-size: 64px;
-}
+/* cloud.css */
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 28px;
+  }
+  
+  #myParagraph {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  #myWordCloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .word {
+    margin: 5px;
+    padding: 5px 15px;
+    font-family: "Impact", sans-serif;
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .word:hover {
+    transform: scale(1.1);
+    background-color: #c0392b;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  .parent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
