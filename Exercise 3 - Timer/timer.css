@@ -1,4 +1,45 @@
 #myTimer {
-    color: red;
-    font-size: 64px;
+    display: flex;
+flex-direction: column;
+ font-size: 64px;
+justify-content: center;
+align-items: center;}
+.operation{
+
+    display: flex;
+    gap: 120px;
+}
+.display{
+    background: #c5e0b4;
+height: 180px;
+width: 450px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.sign{
+    background: #d9d9d9;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+button{
+    height: 40px;
+    border: none;
+    width: 150px;
+    background: #c5e0b4;
+    cursor: pointer;
+}
+input:focus{
+    outline: none;
+}
+input{
+    border: none;
+    height: 40px;
 }
