@@ -3,8 +3,8 @@ console.log("Exercise 3 - Timer");
     const counter = document.getElementById("result");
     const start = document.getElementById("start");
     const reset = document.getElementById("reset");
-    const incrementBtn = document.getElementById("plus");
-    const decrementBtn = document.getElementById("minus");
+    const plus = document.getElementById("plus");
+    const minus = document.getElementById("minus");
 
     let intervalId;
     let isTimerRunning = false;
@@ -66,5 +66,5 @@ console.log("Exercise 3 - Timer");
 
     start.addEventListener("click", startCountdown);
     reset.addEventListener("click", resetCountdown);
-    incrementBtn.addEventListener("click", incrementTime);
-    decrementBtn.addEventListener("click", decrementTime)
+    plus.addEventListener("click", incrementTime);
+    minus.addEventListener("click", decrementTime)
