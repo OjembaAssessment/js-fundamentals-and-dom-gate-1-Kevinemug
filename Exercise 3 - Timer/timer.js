@@ -19,7 +19,7 @@ console.log("Exercise 3 - Timer");
 
     function startCountdown() {
       if (!isTimerRunning) {
-        display = Number(input.value);
+        display =  Number(input.value);
         updateDisplay();
         if (display > 0) {
           isTimerRunning = true;
