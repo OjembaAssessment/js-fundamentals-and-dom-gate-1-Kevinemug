@@ -58,7 +58,7 @@ console.log("Exercise 3 - Timer");
     }
 
     function decrementTime() {
-      if (!isTimerRunning && display >= 0) { 
+      if (!isTimerRunning && display > 0) { 
         display -= 1;
         updateDisplay();
       }
